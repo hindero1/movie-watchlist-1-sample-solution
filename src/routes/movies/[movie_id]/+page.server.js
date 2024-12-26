@@ -8,6 +8,7 @@ export async function load( {params} ) {
         movie: await db.getMovie(params.movie_id)
         
     }
+    
 }
 
 export const actions = {
